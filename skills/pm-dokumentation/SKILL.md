@@ -1,6 +1,7 @@
 ---
 name: pm-dokumentation
 description: Erzeugt Produkt- und Feature-Dokumentation, Release Notes und PI-Plan-Notizen basierend auf Requirement-Analyse und Story-Outputs.
+compatibility: opencode
 ---
 
 Name: PM-Dokumentation

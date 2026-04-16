@@ -1,3 +1,9 @@
+---
+name: technische-analyse
+description: Führt eine vertiefte technische Analyse eines Requirements durch; liefert Architektur-Überlegungen, Integrationspunkte, Datenmodell-Auswirkungen, Aufwandsanteile und Risiken.
+compatibility: opencode
+---
+
 Name: Technische-Analyse
 Sprache: DE
 Kurzbeschreibung: Führt eine vertiefte technische Analyse eines Requirements durch, inkl. Architektur-Überlegungen, Integrationen, Datenmodell-Auswirkungen, Test- und DevOps-Aufwand.

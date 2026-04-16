@@ -4,6 +4,7 @@ description:
   Capture requirements from user perspective with structured user stories. Use
   when writing backlog items, defining acceptance criteria, prioritizing
   features, or communicating requirements between product and development.
+compatibility: opencode
 ---
 
 # User Story Fundamentals - Capturing User-Centered Requirements

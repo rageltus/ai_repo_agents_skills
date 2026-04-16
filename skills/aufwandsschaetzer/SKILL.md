@@ -1,6 +1,7 @@
 ---
 name: aufwandsschaetzer
 description: Schätzt Story Points (SP) für User Stories nach SAFe-Grundsätzen; liefert Begründung, Risiko-Einschätzung und Empfehlungen.
+compatibility: opencode
 ---
 
 Name: Aufwandsschätzer

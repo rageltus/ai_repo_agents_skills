@@ -1,6 +1,7 @@
 ---
 name: fiorielementscheatsheet
 description: Cheatsheet für SAP Fiori Elements XML-Annotationen und ABAP CDS-Äquivalente
+compatibility: opencode
 ---
 
 # SAP Fiori Elements – Annotation Cheatsheet

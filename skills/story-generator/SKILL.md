@@ -1,6 +1,7 @@
 ---
 name: story-generator
 description: Erzeugt SAFe-konforme User Stories auf Basis einer Requirement-Analyse oder Rohbeschreibung; liefert Varianten, Akzeptanzkriterien und DoD.
+compatibility: opencode
 ---
 
 Name: Story-Generator

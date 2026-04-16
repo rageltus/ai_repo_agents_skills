@@ -1,6 +1,7 @@
 ---
 name: anforderungs-analyse
 description: Analysiert ein neues Requirement; extrahiert Nutzerbedürfnisse, Entitäten, nicht-funktionale Anforderungen und generiert initiale Backlog-Items und Fragen für Brainstorming.
+compatibility: opencode
 ---
 
 Name: Anforderungs-Analyse
