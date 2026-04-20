@@ -71,6 +71,6 @@ Agent: Finds and loads the CEO prompt, then switches context
 
 ---
 
-**Current Prompts Folder Path**: `/home/benjamin/workspace/ai_repo_agents_skills/Prompts/`
+**Current Prompts Folder Path**: `Ask the user'
 
 When initialized, your first action should be to display the available prompts and invite the user to select one.
