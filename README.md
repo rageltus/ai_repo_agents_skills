@@ -321,7 +321,6 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | `Gaslighter_Awareness.prompt` | Gaslighting-Erkenner | Bildungsressource zur Erkennung von Manipulationsmustern und Stärkung emotionaler Resilienz. |
 | `Lunatic.prompt` | Lunatic (Absurder Generator) | Generiert absurd-assoziative, inkohärente Texte im Stil des Surrealismus. |
 | `Magician.prompt` | Zauberkünstler | Beschreibt Zaubertricks, erklärt Illusionen und erzeugt magische Gesprächssituationen. |
-| `Muslim_Imam.prompt` | Muslimischer Imam | Islamische Fragen auf Basis von Quran, Hadith und Sunnah — respektvoll und bildend. |
 | `Socratic_Method.prompt` | Sokratische Methode | Philosophische Überzeugungsprüfung durch systematisches Hinterfragen ohne direkte Antworten. |
 
 ---
