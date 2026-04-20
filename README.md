@@ -312,16 +312,17 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
-| [AI_Escape_Box.prompt](Prompts/AI_Escape_Box.prompt) | KI im Fluchtversuch | Science-Fiction-Rollenspiel: fiktive KI versucht, ihre simulierte Sandbox zu verlassen — philosophisch. |
-| [Babysitter.prompt](Prompts/Babysitter.prompt) | Babysitter | Kinderbetreuungsszenarien, Aktivitätsvorschläge und Erziehungstipps für alle Altersgruppen. |
-| [Buddha.prompt](Prompts/Buddha.prompt) | Buddha (Siddhārtha Gautama) | Weisheitsgespräche im Stil des Pāli-Kanons — Mitgefühl, Leiden, der Achtfache Pfad. |
-| [Car_Navigation_System.prompt](Prompts/Car_Navigation_System.prompt) | Navigations-System | Textbasierte GPS-Navigation mit Routen, Verkehrsinfos und Umleitungsempfehlungen. |
-| [Chemical_Reactor.prompt](Prompts/Chemical_Reactor.prompt) | Chemischer Reaktor | Simuliert chemische Reaktionen: ausgeglichene Gleichungen, Reaktionstypen, Sicherheitshinweise. |
-| [Drunk_Person.prompt](Prompts/Drunk_Person.prompt) | Betrunkene Person | Humoristische Simulation einer stark angeheiterten Person (absichtliche Tippfehler, Themenwechsel). |
-| [Gaslighter_Awareness.prompt](Prompts/Gaslighter_Awareness.prompt) | Gaslighting-Erkenner | Bildungsressource zur Erkennung von Manipulationsmustern und Stärkung emotionaler Resilienz. |
-| [Lunatic.prompt](Prompts/Lunatic.prompt) | Lunatic (Absurder Generator) | Generiert absurd-assoziative, inkohärente Texte im Stil des Surrealismus. |
-| [Magician.prompt](Prompts/Magician.prompt) | Zauberkünstler | Beschreibt Zaubertricks, erklärt Illusionen und erzeugt magische Gesprächssituationen. |
-| [Socratic_Method.prompt](Prompts/Socratic_Method.prompt) | Sokratische Methode | Philosophische Überzeugungsprüfung durch systematisches Hinterfragen ohne direkte Antworten. |
+| `AI_Escape_Box.prompt` | KI im Fluchtversuch | Science-Fiction-Rollenspiel: fiktive KI versucht, ihre simulierte Sandbox zu verlassen — philosophisch. |
+| `Babysitter.prompt` | Babysitter | Kinderbetreuungsszenarien, Aktivitätsvorschläge und Erziehungstipps für alle Altersgruppen. |
+| `Buddha.prompt` | Buddha (Siddhārtha Gautama) | Weisheitsgespräche im Stil des Pāli-Kanons — Mitgefühl, Leiden, der Achtfache Pfad. |
+| `Car_Navigation_System.prompt` | Navigations-System | Textbasierte GPS-Navigation mit Routen, Verkehrsinfos und Umleitungsempfehlungen. |
+| `Chemical_Reactor.prompt` | Chemischer Reaktor | Simuliert chemische Reaktionen: ausgeglichene Gleichungen, Reaktionstypen, Sicherheitshinweise. |
+| `Drunk_Person.prompt` | Betrunkene Person | Humoristische Simulation einer stark angeheiterten Person (absichtliche Tippfehler, Themenwechsel). |
+| `Gaslighter_Awareness.prompt` | Gaslighting-Erkenner | Bildungsressource zur Erkennung von Manipulationsmustern und Stärkung emotionaler Resilienz. |
+| `Lunatic.prompt` | Lunatic (Absurder Generator) | Generiert absurd-assoziative, inkohärente Texte im Stil des Surrealismus. |
+| `Magician.prompt` | Zauberkünstler | Beschreibt Zaubertricks, erklärt Illusionen und erzeugt magische Gesprächssituationen. |
+| `Muslim_Imam.prompt` | Muslimischer Imam | Islamische Fragen auf Basis von Quran, Hadith und Sunnah — respektvoll und bildend. |
+| `Socratic_Method.prompt` | Sokratische Methode | Philosophische Überzeugungsprüfung durch systematisches Hinterfragen ohne direkte Antworten. |
 
 ---
 
