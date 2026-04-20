@@ -1,6 +1,6 @@
 # AI Repository — Agents, Skills & Prompts
 
-Eine kuratierte Sammlung von **VS Code Copilot Agenten**, **Skills** und **Prompt-Dateien** für produktive KI-Workflows in Softwareentwicklung, SAP, Kreativarbeit und mehr.
+Eine kuratierte Sammlung von **Copilot und OpenCode Agenten**, **Skills** und **Prompt-Dateien** für produktive KI-Workflows in Softwareentwicklung, SAP, Kreativarbeit und mehr.
 
 ---
 
