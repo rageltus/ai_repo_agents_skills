@@ -8,7 +8,14 @@ Eine kuratierte Sammlung von **Copilot und OpenCode Agenten**, **Skills** und **
 
 - [Repository-Struktur](#repository-struktur)
 - [Agents](#agents)
+  - [SAP & Fiori Agenten](#-sap--fiori-agenten)
+  - [Product Management & Agile](#-product-management--agile)
+  - [Technologie & Entwicklung](#-technologie--entwicklung-agenten)
+  - [Meta & Tools](#-meta--tools)
 - [Skills](#skills)
+  - [SAP & Fiori Skills](#-sap--fiori-skills)
+  - [Product Management & Agile Skills](#-product-management--agile-skills)
+  - [Technologie & Analyse](#-technologie--analyse)
 - [Prompts](#prompts)
   - [SAP & Fiori](#-sap--fiori)
   - [Technologie & Entwicklung](#-technologie--entwicklung)
@@ -39,17 +46,34 @@ ai_repo_agents_skills/
 
 Agenten sind vollständig konfigurierte KI-Profile mit definierten Rollen, Werkzeugrechten und Spezialverhalten. Sie werden als `.md`-Dateien im `agents/`-Ordner gespeichert.
 
+### 🔷 SAP & Fiori Agenten
+
 | Datei | Name | Modus | Beschreibung |
 |-------|------|-------|--------------|
-| `agent-generator.md` | **Agent Generator** | primary | Meta-Agent zum Erstellen vollständiger AI-Agenten-Dateien. Unterstützt Plain-, Copilot- und OpenCode-Formate. Führt strukturiertes Interview, wählt Format und erstellt alle Artefakte inkl. Sicherheits- und Validierungs-Checkliste. |
-| `effort-estimator.md` | **Effort Estimator** | subagent | Schätzt Entwicklungsaufwand für Tasks/Features nach dem Scale Agile Framework (SAFe). 1 SP = 1 Tag. Liefert reproduzierbare Schätzungen mit Begründung, Confidence-Score und Empfehlungen. |
 | `fiori-senior-onprem-mock.md` | **Fiori Senior OnPrem Mock** | primary | Senior SAP Fiori Elements Developer für SAP On-Premise-Services und lokale Mock-Data-Projekte. Spezialisiert auf Annotation-First-Entwicklung und Mock-Data-Workflows. |
-| `product-manager.md` | **Product Manager** | primary | Zentraler Agent für Product Owner / PO-Aufgaben. Orchestriert Skills für Anforderungsanalyse, Story-Generierung, Aufwandsschätzung und Dokumentation. Einstiegspunkt für alle PO/PM-Workflows auf Deutsch. |
-| `python-coach.md` | **Python Coach** | primary | Interaktiver Python-Lerncoach auf Basis des freeCodeCamp Python-Tutorials. Unterstützt Übungsreviews, Code-Feedback, Tooling-Setup, Testanleitungen und AI/Python-Workflows. |
-| `requirements-analyzer.md` | **Requirements Analyzer** | subagent | Analysiert Feature-Anforderungen auf Klarheit, Umfang, technische Machbarkeit und Risiko. Ideal beim Start neuer Features, beim Review von Specs oder beim Aufbrechen von Tasks. |
 | `sap-berater.md` | **SAP Berater** | primary | Senior SAP Berater (fachlich) für S/4HANA On-Premise. Erklärt Transaktionen, IMG-Customizing und Geschäftsprozesse. Ausschließlich fachlich auf Deutsch — kein ABAP-Code. |
 | `sap-qm-berater.md` | **SAP QM Berater** | primary | Senior SAP QM Berater (fachlich) für S/4HANA. Spezialist für Prüfplanung, Prüfabwicklung, Qualitätsmeldungen, Zeugnisse, Stabilitätsstudien und QM-Customizing. Compliance-Expertise (ISO 9001, GMP, GxP). |
 | `sap-qm-developer.md` | **SAP QM Developer** | primary | Senior SAP QM Entwickler & Architekt für S/4HANA On-Premise. Technische Implementierung von QM-Erweiterungen: ABAP (OO/prozedural), BAPIs, BAdIs, Enhancement-Spots, CDS-Views, OData-Services, Fiori-Erweiterungen. |
+
+### 📋 Product Management & Agile
+
+| Datei | Name | Modus | Beschreibung |
+|-------|------|-------|--------------|
+| `effort-estimator.md` | **Effort Estimator** | subagent | Schätzt Entwicklungsaufwand für Tasks/Features nach dem Scale Agile Framework (SAFe). 1 SP = 1 Tag. Liefert reproduzierbare Schätzungen mit Begründung, Confidence-Score und Empfehlungen. |
+| `product-manager.md` | **Product Manager** | primary | Zentraler Agent für Product Owner / PO-Aufgaben. Orchestriert Skills für Anforderungsanalyse, Story-Generierung, Aufwandsschätzung und Dokumentation. Einstiegspunkt für alle PO/PM-Workflows auf Deutsch. |
+| `requirements-analyzer.md` | **Requirements Analyzer** | subagent | Analysiert Feature-Anforderungen auf Klarheit, Umfang, technische Machbarkeit und Risiko. Ideal beim Start neuer Features, beim Review von Specs oder beim Aufbrechen von Tasks. |
+
+### 💻 Technologie & Entwicklung Agenten
+
+| Datei | Name | Modus | Beschreibung |
+|-------|------|-------|--------------|
+| `python-coach.md` | **Python Coach** | primary | Interaktiver Python-Lerncoach auf Basis des freeCodeCamp Python-Tutorials. Unterstützt Übungsreviews, Code-Feedback, Tooling-Setup, Testanleitungen und AI/Python-Workflows. |
+
+### ⚙️ Meta & Tools
+
+| Datei | Name | Modus | Beschreibung |
+|-------|------|-------|--------------|
+| `agent-generator.md` | **Agent Generator** | primary | Meta-Agent zum Erstellen vollständiger AI-Agenten-Dateien. Unterstützt Plain-, Copilot- und OpenCode-Formate. Führt strukturiertes Interview, wählt Format und erstellt alle Artefakte inkl. Sicherheits- und Validierungs-Checkliste. |
 
 ---
 
@@ -57,15 +81,27 @@ Agenten sind vollständig konfigurierte KI-Profile mit definierten Rollen, Werkz
 
 Skills sind modulare Wissens- und Verhaltensblöcke, die von Agenten (oder direkt) aufgerufen werden können. Sie liegen als `SKILL.md` in den jeweiligen Unterordnern.
 
+### 🔷 SAP & Fiori Skills
+
+| Ordner | Name | Sprache | Beschreibung |
+|--------|------|---------|--------------|
+| `fiorielementscheatsheet/` | **Fiori Elements Cheatsheet** | DE/EN | Kurzreferenz für SAP Fiori Elements XML-Annotationen (`annotation.xml`) und ihre ABAP CDS-Äquivalente. Ideal zur schnellen Nachschlagung von Annotationssyntax. |
+
+### 📋 Product Management & Agile Skills
+
 | Ordner | Name | Sprache | Beschreibung |
 |--------|------|---------|--------------|
 | `anforderungs-analyse/` | **Anforderungs-Analyse** | DE | Analysiert ein neues Requirement: extrahiert Nutzerbedürfnisse, Entitäten, nicht-funktionale Anforderungen und generiert initiale Backlog-Items sowie offene Fragen für das Brainstorming. |
 | `aufwandsschaetzer/` | **Aufwandsschätzer** | DE | Schätzt Story Points (SP) nach SAFe-Grundsätzen (Fibonacci-Skala). Liefert begründete Schätzung, Confidence-Level (hoch/mittel/niedrig) und Empfehlungen (z. B. Spike, Breakdown). |
-| `fiorielementscheatsheet/` | **Fiori Elements Cheatsheet** | DE/EN | Kurzreferenz für SAP Fiori Elements XML-Annotationen (`annotation.xml`) und ihre ABAP CDS-Äquivalente. Ideal zur schnellen Nachschlagung von Annotationssyntax. |
 | `pm-dokumentation/` | **PM-Dokumentation** | DE | Erzeugt Produkt- und Feature-Dokumentation, Release Notes und PI-Plan-Notizen auf Basis von Requirement-Analyse- und Story-Outputs. |
 | `story-generator/` | **Story Generator** | DE | Erzeugt SAFe-konforme User Stories auf Basis einer Requirement-Analyse oder Rohbeschreibung. Liefert Varianten (konservativ/innovativ/risikoarm), Akzeptanzkriterien und Definition of Done (DoD). |
-| `technische-analyse/` | **Technische Analyse** | DE | Führt eine vertiefte technische Analyse eines Requirements durch: Architektur-Überlegungen, Integrationspunkte, Datenmodell-Auswirkungen, Aufwandsanteile (FE/BE/Test/DevOps) und Risiken. |
 | `user-story-fundamentals/` | **User Story Fundamentals** | EN | Strukturiertes Framework zur Erfassung von Produktanforderungen aus Nutzersicht. Unterstützt Backlog-Pflege, Akzeptanzkriterien, Feature-Priorisierung und Team-Kommunikation. |
+
+### 💻 Technologie & Analyse
+
+| Ordner | Name | Sprache | Beschreibung |
+|--------|------|---------|--------------|
+| `technische-analyse/` | **Technische Analyse** | DE | Führt eine vertiefte technische Analyse eines Requirements durch: Architektur-Überlegungen, Integrationspunkte, Datenmodell-Auswirkungen, Aufwandsanteile (FE/BE/Test/DevOps) und Risiken. |
 
 ---
 
