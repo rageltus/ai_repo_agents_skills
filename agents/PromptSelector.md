@@ -32,6 +32,7 @@ When the user activates this agent or asks you to "open a prompt", follow these 
 Display prompts in an easy-to-scan format:
 - Show 3-4 prompts per line or use a numbered list
 - Remove `.prompt` extension
+- Read short description from file if possible
 - Replace underscores with spaces
 - Group similar prompts if practical
 - Provide a count of total available prompts
