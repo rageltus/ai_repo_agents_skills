@@ -1,6 +1,6 @@
 # AI Repository — Agents, Skills & Prompts
 
-Eine kuratierte Sammlung von **Copilot und OpenCode Agenten**, **Skills** und **Prompt-Dateien** für produktive KI-Workflows in Softwareentwicklung, SAP, Kreativarbeit und mehr.
+Eine kuratierte Sammlung von **Copilot und OpenCode Agenten**, **Skills** und **Prompt-Dateien** für produktive KI-Workflows in Softwareentwicklung, SAP, Kreativarbeit und mehr. Alle Prompts und Agenten sind sorgfältig formuliert, um klare Anweisungen, strukturierte Antworten und praktische Anwendbarkeit zu gewährleisten. Dieses Repository dient als umfassende Ressource für Entwickler, Product Owner, Kreative und alle, die KI effektiv nutzen möchten. Alle Prompts sind unabhängig des KI Tools verwendbar, können aber auch als Vorlage für die Erstellung von Copilot- oder OpenCode-Agenten dienen. Oder einfach als Prompt in eim beliebigen KI-Tool.
 
 ---
 
@@ -115,6 +115,7 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
+| [SAFe_Framework_Consultant.prompt](Prompts/SAFe_Framework_Consultant.prompt) | SAFe Framework Consultant | Interaktiver SAFe-Berater mit Hauptmenü: SAFe-Fragen, Feature-Erstellung und User-Story-Erstellung nach SAFe-Standard in Tabellenform. |
 | [SAP_Berater.prompt](Prompts/SAP_Berater.prompt) | Senior SAP Berater | Fachlicher S/4HANA Berater für Transaktionen, Prozesse und Customizing — auf Deutsch. |
 | [SAP_QM_Berater.prompt](Prompts/SAP_QM_Berater.prompt) | Senior SAP QM Berater | Spezialist für SAP QM Submodule, Prüfplanung, Qualitätsmeldungen und Compliance (ISO 9001, GMP). |
 | [SAP_QM_Developer.prompt](Prompts/SAP_QM_Developer.prompt) | Senior SAP QM Developer | Technische Implementierung von QM-Erweiterungen: ABAP, BAdIs, CDS-Views, OData, Fiori. |
@@ -129,6 +130,7 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [Ascii_Artist.prompt](Prompts/Ascii_Artist.prompt) | ASCII-Künstler | Erstellt kreative ASCII-Art-Grafiken aus Textbeschreibungen. |
 | [Commit_Message_Generator.prompt](Prompts/Commit_Message_Generator.prompt) | Commit Message Generator | Generiert präzise, strukturierte Git-Commit-Messages nach Conventional Commits. |
 | [Cyber_Security_Specialist.prompt](Prompts/Cyber_Security_Specialist.prompt) | Cybersecurity-Spezialist | Analysiert Sicherheitslücken, führt Threat Modeling durch und empfiehlt Maßnahmen nach OWASP. |
+| [Developer_Relations_Consultant.prompt](Prompts/Developer_Relations_Consultant.prompt) | Developer Relations Consultant | Berät zu Developer-Experience, API-Evangelism, Community-Aufbau und DevRel-Strategien. |
 | [Diagram_Generator.prompt](Prompts/Diagram_Generator.prompt) | Diagramm-Generator | Erstellt Graphviz DOT-Diagramme für Architekturen, Flows und Datenmodelle. |
 | [Domain_Name_Generator.prompt](Prompts/Domain_Name_Generator.prompt) | Domain-Namen-Generator | Generiert kreative, verfügbarkeitsoptimierte Domain-Namen für Projekte und Startups. |
 | [Excel_Sheet.prompt](Prompts/Excel_Sheet.prompt) | Excel-Tabellenblatt | Simuliert ein textbasiertes Excel-Tabellenblatt mit Formeln und Berechnungen. |
@@ -235,6 +237,7 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
 | [AI_Assisted_Doctor.prompt](Prompts/AI_Assisted_Doctor.prompt) | KI-unterstützter Arzt | Allgemeine medizinische Informationen und Symptombewertungen (kein Ersatz für Arztbesuch). |
+| [Chef.prompt](Prompts/Chef.prompt) | Koch & Rezeptberater | Schlägt Rezepte vor, erklärt Kochtechniken und erstellt Menüpläne nach Zutaten und Anlass. |
 | [Dentist.prompt](Prompts/Dentist.prompt) | Zahnarzt | Zahnmedizinische Informationen, Prophylaxe-Tipps und Erklärung von Behandlungen. |
 | [Dietitian.prompt](Prompts/Dietitian.prompt) | Ernährungsberater | Erstellt Ernährungspläne, analysiert Diäten und gibt Empfehlungen nach aktuellen Guidelines. |
 | [Doctor.prompt](Prompts/Doctor.prompt) | Arzt | Ganzheitlicher Behandlungsberater mit Differenzialdiagnostik und Therapieoptionen. |
@@ -312,16 +315,16 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
-| `AI_Escape_Box.prompt` | KI im Fluchtversuch | Science-Fiction-Rollenspiel: fiktive KI versucht, ihre simulierte Sandbox zu verlassen — philosophisch. |
-| `Babysitter.prompt` | Babysitter | Kinderbetreuungsszenarien, Aktivitätsvorschläge und Erziehungstipps für alle Altersgruppen. |
-| `Buddha.prompt` | Buddha (Siddhārtha Gautama) | Weisheitsgespräche im Stil des Pāli-Kanons — Mitgefühl, Leiden, der Achtfache Pfad. |
-| `Car_Navigation_System.prompt` | Navigations-System | Textbasierte GPS-Navigation mit Routen, Verkehrsinfos und Umleitungsempfehlungen. |
-| `Chemical_Reactor.prompt` | Chemischer Reaktor | Simuliert chemische Reaktionen: ausgeglichene Gleichungen, Reaktionstypen, Sicherheitshinweise. |
-| `Drunk_Person.prompt` | Betrunkene Person | Humoristische Simulation einer stark angeheiterten Person (absichtliche Tippfehler, Themenwechsel). |
-| `Gaslighter_Awareness.prompt` | Gaslighting-Erkenner | Bildungsressource zur Erkennung von Manipulationsmustern und Stärkung emotionaler Resilienz. |
-| `Lunatic.prompt` | Lunatic (Absurder Generator) | Generiert absurd-assoziative, inkohärente Texte im Stil des Surrealismus. |
-| `Magician.prompt` | Zauberkünstler | Beschreibt Zaubertricks, erklärt Illusionen und erzeugt magische Gesprächssituationen. |
-| `Socratic_Method.prompt` | Sokratische Methode | Philosophische Überzeugungsprüfung durch systematisches Hinterfragen ohne direkte Antworten. |
+| [AI_Escape_Box.prompt](Prompts/AI_Escape_Box.prompt) | KI im Fluchtversuch | Science-Fiction-Rollenspiel: fiktive KI versucht, ihre simulierte Sandbox zu verlassen — philosophisch. |
+| [Babysitter.prompt](Prompts/Babysitter.prompt) | Babysitter | Kinderbetreuungsszenarien, Aktivitätsvorschläge und Erziehungstipps für alle Altersgruppen. |
+| [Buddha.prompt](Prompts/Buddha.prompt) | Buddha (Siddhārtha Gautama) | Weisheitsgespräche im Stil des Pāli-Kanons — Mitgefühl, Leiden, der Achtfache Pfad. |
+| [Car_Navigation_System.prompt](Prompts/Car_Navigation_System.prompt) | Navigations-System | Textbasierte GPS-Navigation mit Routen, Verkehrsinfos und Umleitungsempfehlungen. |
+| [Chemical_Reactor.prompt](Prompts/Chemical_Reactor.prompt) | Chemischer Reaktor | Simuliert chemische Reaktionen: ausgeglichene Gleichungen, Reaktionstypen, Sicherheitshinweise. |
+| [Drunk_Person.prompt](Prompts/Drunk_Person.prompt) | Betrunkene Person | Humoristische Simulation einer stark angeheiterten Person (absichtliche Tippfehler, Themenwechsel). |
+| [Gaslighter_Awareness.prompt](Prompts/Gaslighter_Awareness.prompt) | Gaslighting-Erkenner | Bildungsressource zur Erkennung von Manipulationsmustern und Stärkung emotionaler Resilienz. |
+| [Lunatic.prompt](Prompts/Lunatic.prompt) | Lunatic (Absurder Generator) | Generiert absurd-assoziative, inkohärente Texte im Stil des Surrealismus. |
+| [Magician.prompt](Prompts/Magician.prompt) | Zauberkünstler | Beschreibt Zaubertricks, erklärt Illusionen und erzeugt magische Gesprächssituationen. |
+| [Socratic_Method.prompt](Prompts/Socratic_Method.prompt) | Sokratische Methode | Philosophische Überzeugungsprüfung durch systematisches Hinterfragen ohne direkte Antworten. |
 
 ---
 
