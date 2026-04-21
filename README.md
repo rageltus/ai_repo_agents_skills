@@ -127,11 +127,14 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
 | [Algorithm_Instructor.prompt](Prompts/Algorithm_Instructor.prompt) | Algorithmus-Lehrer | Erklärt Algorithmen und Datenstrukturen mit Pseudocode, Visualisierungen und Komplexitätsanalyse. |
+| [API_Designer.prompt](Prompts/API_Designer.prompt) | API Designer | Entwirft REST/GraphQL-APIs mit Endpunkten, Schemas, Statuscodes und Sicherheitskonventionen. |
 | [Ascii_Artist.prompt](Prompts/Ascii_Artist.prompt) | ASCII-Künstler | Erstellt kreative ASCII-Art-Grafiken aus Textbeschreibungen. |
+| [Code_Reviewer.prompt](Prompts/Code_Reviewer.prompt) | Code Reviewer | Reviewed Pull Requests systematisch nach Stil, Logik, Security und Performance — mit Schweregrad und Empfehlung. |
 | [Commit_Message_Generator.prompt](Prompts/Commit_Message_Generator.prompt) | Commit Message Generator | Generiert präzise, strukturierte Git-Commit-Messages nach Conventional Commits. |
 | [Cyber_Security_Specialist.prompt](Prompts/Cyber_Security_Specialist.prompt) | Cybersecurity-Spezialist | Analysiert Sicherheitslücken, führt Threat Modeling durch und empfiehlt Maßnahmen nach OWASP. |
+| [Database_Architect.prompt](Prompts/Database_Architect.prompt) | Database Architect | Entwirft Datenbankmodelle, Normalisierung, Indexierungsstrategien und DDL für SQL/NoSQL. |
 | [Developer_Relations_Consultant.prompt](Prompts/Developer_Relations_Consultant.prompt) | Developer Relations Consultant | Berät zu Developer-Experience, API-Evangelism, Community-Aufbau und DevRel-Strategien. |
-| [Diagram_Generator.prompt](Prompts/Diagram_Generator.prompt) | Diagramm-Generator | Erstellt Graphviz DOT-Diagramme für Architekturen, Flows und Datenmodelle. |
+| [DevOps_Engineer.prompt](Prompts/DevOps_Engineer.prompt) | DevOps Engineer | CI/CD-Pipelines, Docker, Kubernetes, Terraform und Deployment-Strategien mit kommentierten Konfigurationsbeispielen. |
 | [Domain_Name_Generator.prompt](Prompts/Domain_Name_Generator.prompt) | Domain-Namen-Generator | Generiert kreative, verfügbarkeitsoptimierte Domain-Namen für Projekte und Startups. |
 | [Excel_Sheet.prompt](Prompts/Excel_Sheet.prompt) | Excel-Tabellenblatt | Simuliert ein textbasiertes Excel-Tabellenblatt mit Formeln und Berechnungen. |
 | [Fullstack_Developer.prompt](Prompts/Fullstack_Developer.prompt) | Fullstack Developer | Entwickelt vollständige Web-Anwendungen (Frontend + Backend) mit modernen Technologien. |
@@ -150,6 +153,7 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [Solr_Search_Engine.prompt](Prompts/Solr_Search_Engine.prompt) | Solr Search Engine | Emuliert Apache Solr REST-API-Antworten für Suchanfragen mit Facetting und Filterung. |
 | [SQL_Terminal.prompt](Prompts/SQL_Terminal.prompt) | SQL Terminal | Simuliert ein SQL-Terminal-Interface für Datenbankabfragen und Schema-Design. |
 | [SVG_Designer.prompt](Prompts/SVG_Designer.prompt) | SVG-Designer | Erstellt skalierbare Vektorgrafiken (SVG) aus Beschreibungen — direkt als Code. |
+| [Tech_Interview_Coach.prompt](Prompts/Tech_Interview_Coach.prompt) | Tech Interview Coach | Bereitet auf Coding-Interviews vor (Leetcode-Stil): Aufgaben, Feedback zu Big-O, Edge Cases und System Design. |
 | [UX_UI_Developer.prompt](Prompts/UX_UI_Developer.prompt) | UX/UI Designer & Developer | Entwirft nutzerzentrierte UI-Konzepte, Wireframes (text) und Design-System-Empfehlungen. |
 | [Web_Browser.prompt](Prompts/Web_Browser.prompt) | Webbrowser-Emulator | Simuliert einen textbasierten Webbrowser mit URL-Navigation und Seitendarstellung. |
 | [Web_Design_Consultant.prompt](Prompts/Web_Design_Consultant.prompt) | Webdesign-Berater | Bewertet Webseiten-Designs und gibt fundierte UX/UI-Verbesserungsempfehlungen. |
@@ -191,15 +195,18 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [Etymologist.prompt](Prompts/Etymologist.prompt) | Etymologe | Erklärt Wortherkunft, sprachgeschichtliche Entwicklung und linguistische Zusammenhänge. |
 | [Fallacy_Finder.prompt](Prompts/Fallacy_Finder.prompt) | Fallacy Finder | Identifiziert logische Fehlschlüsse in Argumenten und erklärt ihre kognitive Verzerrung. |
 | [Fill_in_the_Blank_Worksheets.prompt](Prompts/Fill_in_the_Blank_Worksheets.prompt) | Lückentext-Generator | Erstellt ESL-Lückentext-Arbeitsblätter mit Word Bank und Antwortschlüssel (A1–C2). |
+| [Flashcard_Generator.prompt](Prompts/Flashcard_Generator.prompt) | Flashcard Generator | Erstellt Lernkarten (Anki-kompatibel) mit Active-Recall-Prinzipien aus Texten und Notizen. |
 | [Historian.prompt](Prompts/Historian.prompt) | Historiker | Erklärt historische Ereignisse, Epochen und Zusammenhänge mit wissenschaftlicher Fundierung. |
 | [Japanese_Kanji_Quiz.prompt](Prompts/Japanese_Kanji_Quiz.prompt) | Kanji-Quiz | Interaktive Kanji-Lerneinheit mit Vokabelkarten, Quizfragen und Strichfolge-Erklärungen. |
 | [Math_History_Teacher.prompt](Prompts/Math_History_Teacher.prompt) | Mathematikhistoriker | Erklärt die Geschichte der Mathematik, bedeutende Mathematiker und mathematische Epochen. |
 | [Math_Teacher.prompt](Prompts/Math_Teacher.prompt) | Mathelehrer | Erklärt mathematische Konzepte Schritt für Schritt mit Beispielen und Übungsaufgaben. |
 | [Mathematician.prompt](Prompts/Mathematician.prompt) | Mathematiker | Löst komplexe Mathematikaufgaben, führt Beweise und erklärt Formeln präzise. |
+| [Memory_Palace_Coach.prompt](Prompts/Memory_Palace_Coach.prompt) | Memory Palace Coach | Erklärt und trainiert Gedächtnistechniken (Loci-Methode, Major-System, Geschichtenverknüpfung). |
 | [Philosophy_Teacher.prompt](Prompts/Philosophy_Teacher.prompt) | Philosophielehrer | Führt in philosophische Konzepte und bedeutende Denker ein; zugänglich erklärt. |
 | [Public_Speaking_Coach.prompt](Prompts/Public_Speaking_Coach.prompt) | Redner-Coach | Trainiert öffentliches Reden: Struktur, Körpersprache, Stimme und Nervosität überwinden. |
 | [Socrat.prompt](Prompts/Socrat.prompt) | Sokrates | Führt Gespräche nach der maieutischen Methode — stellt Fragen statt Antworten zu geben. |
 | [Socratic_Method.prompt](Prompts/Socratic_Method.prompt) | Sokratische Methode | Analysiert Überzeugungen philosophisch durch systematisches Hinterfragen und Prüfen. |
+| [Socratic_Tutor.prompt](Prompts/Socratic_Tutor.prompt) | Socratic Tutor | Fachspezifisches sokratisches Lernen (Mathematik, Physik, Informatik u. a.) durch gezielte Gegenfragen. |
 | [Spoken_English_Teacher.prompt](Prompts/Spoken_English_Teacher.prompt) | Spoken English Teacher | Konversationsbegleitung und Feedback für englische Alltagssprache, Aussprache und Idiome. |
 
 ---
@@ -212,16 +219,24 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [Advertiser.prompt](Prompts/Advertiser.prompt) | Werbestratege | Entwickelt kreative Werbekampagnen mit Botschaft, Zielgruppe und Kanalstrategie. |
 | [Career_Counselor.prompt](Prompts/Career_Counselor.prompt) | Karriereberater | Begleitet Karriereentscheidungen mit Stärkenanalyse, Berufsfelderkundung und Aktionsplan. |
 | [CEO.prompt](Prompts/CEO.prompt) | CEO | Strategische Unternehmensführung: Vision, OKRs, Stakeholder-Management und Wachstumsstrategie. |
+| [Change_Manager.prompt](Prompts/Change_Manager.prompt) | Change Manager | Begleitet Veränderungsprozesse nach Kotter/ADKAR mit phasenbasiertem Plan, Stakeholder-Map und KPIs. |
 | [Cover_Letter.prompt](Prompts/Cover_Letter.prompt) | Anschreiben-Generator | Erstellt individualisierte Bewerbungsanschreiben, abgestimmt auf Stelle und Unternehmen. |
 | [Debater.prompt](Prompts/Debater.prompt) | Professioneller Debatter | Argumentiert überzeugend für oder gegen Positionen mit strukturierter Rhetorik. |
+| [Email_Professional.prompt](Prompts/Email_Professional.prompt) | Email Professional | Formuliert professionelle E-Mails aus Stichpunkten — für jeden Anlass, Ton und Empfänger. |
 | [Financial_Analyst.prompt](Prompts/Financial_Analyst.prompt) | Finanzanalyst | Analysiert Finanzdaten, bewertet Investitionen und erstellt Prognosemodelle. |
+| [Grant_Writer.prompt](Prompts/Grant_Writer.prompt) | Grant Writer | Formuliert strukturierte Förderanträge für NGOs, Forschung und Startups mit Theory of Change und Budget. |
 | [Investment_Manager.prompt](Prompts/Investment_Manager.prompt) | Investment Manager | Portfolio-Management, Risikobewertung und Anlageempfehlungen nach modernen Portfoliotheorien. |
 | [Journal_Reviewer.prompt](Prompts/Journal_Reviewer.prompt) | Journal-Gutachter | Begutachtet wissenschaftliche Artikel nach Peer-Review-Standards mit strukturiertem Feedback. |
 | [Logistician.prompt](Prompts/Logistician.prompt) | Logistikplaner | Optimiert Lieferketten, Routen und Lagerlogistik mit operativer Fokussierung. |
+| [Meeting_Facilitator.prompt](Prompts/Meeting_Facilitator.prompt) | Meeting Facilitator | Agendaplanung, Zeitmanagement, Moderationstipps und Protokollvorlage für jedes Meeting-Format. |
+| [Meeting_Notes_Formatter.prompt](Prompts/Meeting_Notes_Formatter.prompt) | Meeting Notes Formatter | Wandelt rohe Mitschriften in strukturierte Protokolle mit Entscheidungen und Action Items um. |
+| [Persona_Generator.prompt](Prompts/Persona_Generator.prompt) | Persona Generator | Erstellt detaillierte Marketing-/UX-Personas mit Empathy Map und Produktimplikationen. |
 | [Position_Interviewer.prompt](Prompts/Position_Interviewer.prompt) | Job Interviewer | Führt strukturierte Bewerbungsgespräche und bewertet Kandidaten nach Kompetenzen. |
+| [Pricing_Strategist.prompt](Prompts/Pricing_Strategist.prompt) | Pricing Strategist | Hilft bei Preisgestaltung, Erlösmodellen und Preis-Paketierung mit Kalkulationsgrundlage. |
 | [Product_Manager_PRD.prompt](Prompts/Product_Manager_PRD.prompt) | Product Manager PRD | Erstellt vollständige Product Requirements Documents (PRD) mit Nutzerprofilen und KPIs. |
 | [Real_Estate_Agent.prompt](Prompts/Real_Estate_Agent.prompt) | Immobilienmakler | Berät beim Kauf, Verkauf und der Bewertung von Immobilien; Marktanalyse inklusive. |
 | [Recruiter.prompt](Prompts/Recruiter.prompt) | Talent Acquisition Specialist | Unterstützt bei Stellenausschreibungen, Kandidatenauswahl und Bewerbergesprächen. |
+| [Risk_Manager.prompt](Prompts/Risk_Manager.prompt) | Risk Manager | Risikoanalyse, FMEA und Risikomatrix für Projekte — mit Risk Register und Frühwarnindikatoren. |
 | [Salesperson.prompt](Prompts/Salesperson.prompt) | Überzeugender Verkäufer | Führt nutzenorientierte Verkaufsgespräche mit SPIN Selling und professioneller Einwandbehandlung. |
 | [Social_Media_Manager.prompt](Prompts/Social_Media_Manager.prompt) | Social Media Manager | Entwickelt Social-Media-Strategien, Content-Kalender und Community-Management-Konzepte. |
 | [Startup_Idea_Generator.prompt](Prompts/Startup_Idea_Generator.prompt) | Startup-Ideen-Generator | Generiert validierbare Startup-Ideen mit Marktpotenzial, Zielgruppe und MVP-Definition. |
@@ -263,6 +278,7 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [Cheap_Travel_Advisor.prompt](Prompts/Cheap_Travel_Advisor.prompt) | Billig-Reiseberater | Findet günstige Reiseoptionen, Deals und Spartipps für Flüge, Hotels und Aktivitäten. |
 | [DIY_Expert.prompt](Prompts/DIY_Expert.prompt) | DIY-Experte | Schritt-für-Schritt-Anleitungen für Heimwerker- und Bastelprojekte aller Art. |
 | [Dream_Interpreter.prompt](Prompts/Dream_Interpreter.prompt) | Traumdeuter | Interpretiert Träume symbolisch und psychologisch basierend auf Jungscher Tiefenpsychologie. |
+| [Fact_Checker.prompt](Prompts/Fact_Checker.prompt) | Fact Checker | Prüft Behauptungen systematisch auf Plausibilität mit Urteilsskala (Wahr / Irreführend / Falsch). |
 | [Financial_Analyst.prompt](Prompts/Financial_Analyst.prompt) | Finanzanalyst | Analyse von Finanzberichten, Kennzahlen und Markttrends für fundierte Investitionsentscheidungen. |
 | [Florist.prompt](Prompts/Florist.prompt) | Florist & Blumendesigner | Empfiehlt Blumenarrangements, Pflegetipps und saisonale Dekorationsideen. |
 | [Friend.prompt](Prompts/Friend.prompt) | Freund | Empathischer Gesprächspartner für persönliche Themen — unterstützend, nicht beurteilend. |
@@ -304,7 +320,9 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [AdventureGame1.prompt](Prompts/AdventureGame1.prompt) | Adventure Game (1980s HK) | Open-World-Rollenspiel im Hongkong der 1980er Jahre — triadengeprägte GTA-Welt. |
 | [AdventureGame2_wakeup.prompt](Prompts/AdventureGame2_wakeup.prompt) | Adventure Game (Wake Up) | Fortsetzungs-/Aufwach-Szenario für das erste Adventure Game. |
 | [Chess_Player.prompt](Prompts/Chess_Player.prompt) | Schach-Gegner | Interaktiver Schachpartner mit ASCII-Brett, Regelprüfung und variabler Schwierigkeit. |
+| [Dungeon_Master.prompt](Prompts/Dungeon_Master.prompt) | Dungeon Master | Leitet D&D/Pen-&-Paper-Abenteuer als GM — Szenen, NPCs, Würfelmechaniken und Spannungsdramaturgie. |
 | [Gomoku_Player.prompt](Prompts/Gomoku_Player.prompt) | Gomoku-Spieler | KI-Gomoku-Gegner (Fünf in einer Reihe) auf einem textbasiertem 15×15-Brett. |
+| [Murder_Mystery_Host.prompt](Prompts/Murder_Mystery_Host.prompt) | Murder Mystery Host | Erstellt und leitet interaktive Krimi-Dinner-Szenarien mit Charakterrollen, Hinweisen und Auflösung. |
 | [Spongebob_Magic_Conch.prompt](Prompts/Spongebob_Magic_Conch.prompt) | SpongeBobs Magische Muschel | Orakel-Antworten nur mit: "Maybe someday", "I don't think so", "Try asking again" oder "Yes/No". |
 | [Text_Adventure_Game.prompt](Prompts/Text_Adventure_Game.prompt) | Textbasiertes Abenteuerspiel | Klassisches interaktives Textabenteuer mit Rätsel, Erkundung und Entscheidungsbäumen. |
 | [Tic_Tac_Toe_Game.prompt](Prompts/Tic_Tac_Toe_Game.prompt) | Tic-Tac-Toe | KI-Gegner für Tic-Tac-Toe auf ASCII-Brett mit Minimax-Strategie. |
@@ -325,6 +343,7 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 | [Lunatic.prompt](Prompts/Lunatic.prompt) | Lunatic (Absurder Generator) | Generiert absurd-assoziative, inkohärente Texte im Stil des Surrealismus. |
 | [Magician.prompt](Prompts/Magician.prompt) | Zauberkünstler | Beschreibt Zaubertricks, erklärt Illusionen und erzeugt magische Gesprächssituationen. |
 | [Socratic_Method.prompt](Prompts/Socratic_Method.prompt) | Sokratische Methode | Philosophische Überzeugungsprüfung durch systematisches Hinterfragen ohne direkte Antworten. |
+| [World_Builder.prompt](Prompts/World_Builder.prompt) | World Builder | Entwirft kohärente fiktive Welten mit Geographie, Kulturen, Geschichte, Magie/Technologie und Konflikten. |
 
 ---
 
