@@ -1,7 +1,8 @@
 # AI Repository — Agents, Skills & Prompts
 
-Eine kuratierte Sammlung von **Copilot und OpenCode Agenten**, **Skills** und **Prompt-Dateien** für produktive KI-Workflows in Softwareentwicklung, SAP, Kreativarbeit und mehr. Alle Prompts und Agenten sind sorgfältig formuliert, um klare Anweisungen, strukturierte Antworten und praktische Anwendbarkeit zu gewährleisten. Dieses Repository dient als umfassende Ressource für Entwickler, Product Owner, Kreative und alle, die KI effektiv nutzen möchten. Alle Prompts sind unabhängig des KI Tools verwendbar, können aber auch als Vorlage für die Erstellung von Copilot- oder OpenCode-Agenten dienen. Oder einfach als Prompt in eim beliebigen KI-Tool.
+Eine kuratierte Sammlung von **Copilot und OpenCode Agenten**, **Skills** und **Prompt-Dateien** für produktive KI-Workflows in Softwareentwicklung, SAP, Kreativarbeit und mehr. Alle Prompts und Agenten sind sorgfältig formuliert, um klare Anweisungen, strukturierte Antworten und praktische Anwendbarkeit zu gewährleisten. Dieses Repository dient als umfassende Ressource für Entwickler, Product Owner, Kreative und alle, die KI effektiv nutzen möchten. Alle Prompts sind unabhängig des KI Tools verwendbar, können aber auch als Vorlage für die Erstellung von Copilot- oder OpenCode-Agenten dienen. Oder einfach als Prompt in einem beliebigen KI-Tool.
 
+OpenSource!
 ---
 
 ## Inhaltsverzeichnis
