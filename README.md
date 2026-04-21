@@ -116,7 +116,8 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
-| [SAFe_Framework_Consultant.prompt](Prompts/SAFe_Framework_Consultant.prompt) | SAFe Framework Consultant | Interaktiver SAFe-Berater mit Hauptmenü: SAFe-Fragen, Feature-Erstellung und User-Story-Erstellung nach SAFe-Standard in Tabellenform. |
+| [SAFe_Aufwandschätzer.prompt](Prompts/SAFe_Aufwandschätzer.prompt) | SAFe Aufwandschätzer | SAFe Team-Coach und Agile Master für Aufwandsschätzung in SP (Fibonacci/Tage). 5 Modi: Schätzen, Themen-Research für unbekannte Themen, Planning Poker, WSJF-Berechnung und SAFe-Fragen. Drei-Punkt-Schätzung, gewichtete Schätzungstabelle, Confidence-Level und Spike-Empfehlung inklusive. |
+| [SAFe_Framework_Consultant.prompt](Prompts/SAFe_Framework_Consultant.prompt) | SAFe Framework Consultant | Interaktiver SAFe-Berater mit Hauptmenü: SAFe-Fragen, Epic-, Feature- und User-Story-Erstellung nach SAFe-Standard in Tabellenform. |
 | [SAP_Berater.prompt](Prompts/SAP_Berater.prompt) | Senior SAP Berater | Fachlicher S/4HANA Berater für Transaktionen, Prozesse und Customizing — auf Deutsch. |
 | [SAP_QM_Berater.prompt](Prompts/SAP_QM_Berater.prompt) | Senior SAP QM Berater | Spezialist für SAP QM Submodule, Prüfplanung, Qualitätsmeldungen und Compliance (ISO 9001, GMP). |
 | [SAP_QM_Developer.prompt](Prompts/SAP_QM_Developer.prompt) | Senior SAP QM Developer | Technische Implementierung von QM-Erweiterungen: ABAP, BAdIs, CDS-Views, OData, Fiori. |
