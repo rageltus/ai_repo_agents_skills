@@ -29,6 +29,13 @@ OpenSource!
   - [Spiele & Unterhaltung](#-spiele--unterhaltung)
   - [Rollenspiel & Kreativ-Simulationen](#-rollenspiel--kreativ-simulationen)
   - [Tools & Generatoren](#-tools--generatoren)
+  ### 💻 Technologie & Entwicklung
+
+  | Datei | Name | Beschreibung |
+  |-------|------|--------------|
+  | [JavaScript_Console.prompt](Prompts/JavaScript_Console.prompt) | **JavaScript Console Emulator** | Simuliert eine interaktive Browser-Konsole für JavaScript-Ausführung und Debugging. |
+  | [JavaScript_Developer.prompt](Prompts/JavaScript_Developer.prompt) | **JavaScript Developer** | Hilft bei der Entwicklung von JavaScript-Code, einschließlich Best Practices, Refaktorierung und moderner Standards. |
+  | [Fullstack_Developer.prompt](Prompts/Fullstack_Developer.prompt) | **Fullstack Developer** | Entwickelt vollständige Web-Apps mit Fokus auf Sicherheit, Architektur und mehreren Tech-Stacks. |
 
 ---
 
