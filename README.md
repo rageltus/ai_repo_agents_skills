@@ -97,6 +97,7 @@ Skills sind modulare Wissens- und Verhaltensblöcke, die von Agenten (oder direk
 | Ordner | Name | Sprache | Beschreibung |
 |--------|------|---------|--------------|
 | [fiorielementscheatsheet/](skills/fiorielementscheatsheet/SKILL.md) | **Fiori Elements Cheatsheet** | DE/EN | Kurzreferenz für SAP Fiori Elements XML-Annotationen (`annotation.xml`) und ihre ABAP CDS-Äquivalente. Ideal zur schnellen Nachschlagung von Annotationssyntax. |
+| [fiori-elements-developer/](skills/fiori-elements-developer/SKILL.md) | **Fiori Elements Developer** | EN | Aus dem Copilot-Agenten [`fiori-senior-onprem-mock.md`](agents/fiori-senior-onprem-mock.md) abgeleitet: Senior-Workflow zum Bauen/Erweitern/Debuggen von Fiori-Elements-Apps (List Report/Object Page), annotation-first, inkl. Mock-Data-Konventionen. Nutzt die `fiorielementscheatsheet`-Skill als Nachschlagewerk. |
 
 ### 📋 Product Management & Agile Skills
 
