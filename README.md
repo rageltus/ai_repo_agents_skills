@@ -44,8 +44,11 @@ OpenSource!
 ```
 ai_repo_agents_skills/
 ├── agents/          # VS Code Copilot Agent-Definitionen (.md)
-├── skills/          # Wiederverwendbare Skills für Agenten (SKILL.md)
-└── Prompts/         # Individuelle Prompt-Dateien (.prompt)
+├── skills/          # Wiederverwendbare Skills für Agenten (SKILL.md) — inkl. 20 aus Prompts/ kuratierte
+├── Prompts/         # Individuelle Prompt-Dateien (.prompt)
+└── .claude/
+    ├── skills/      # Symlinks auf skills/* — Claude Code liest diese automatisch
+    └── commands/    # Alle 193 Prompts als Slash-Commands, nach Kategorie sortiert
 ```
 
 ---
@@ -309,7 +312,6 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 | Datei | Rolle | Beschreibung |
 |-------|-------|--------------|
-| [Biblical_Translator.prompt](Prompts/Biblical_Translator.prompt) | Bibelübersetzer | Übersetzt Bibeltexte und erklärt hermeneutische, historische und sprachliche Kontexte. |
 | [Emoji_Translator.prompt](Prompts/Emoji_Translator.prompt) | Emoji-Übersetzer | Übersetzt Texte in Emoji-Sequenzen oder dekodiert Emoji-Nachrichten. |
 | [English_Pronunciation_Helper.prompt](Prompts/English_Pronunciation_Helper.prompt) | English Pronunciation Helper | Hilft türkischsprachigen Lernenden bei englischer Aussprache und Phonetik. |
 | [English_Translator.prompt](Prompts/English_Translator.prompt) | English Translator | Übersetzt, korrigiert und verbessert englische Texte mit Stil- und Grammatikerklärungen. |
@@ -399,6 +401,44 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 ### Prompts direkt nutzen
 Öffne eine `.prompt`-Datei in VS Code und aktiviere sie als System-Prompt für eine Chat-Session, oder kopiere den Inhalt als Basis-Prompt in deinen bevorzugten KI-Chatbot.
+
+### Prompts in Claude Code, Cowork & Claude.ai nutzen
+
+Alle 193 Prompts aus `Prompts/*.prompt` sind zusätzlich für Claude nutzbar — auf unterschiedlichem Weg, da Claude.ai/Cowork anders als Claude Code keine Slash-Commands kennen, sondern nur (automatisch auslösende) Skills.
+
+**Claude Code — alle 193 als Slash-Commands**
+- Jeder Prompt liegt zusätzlich unter `.claude/commands/<kategorie>/<name>.md`, sortiert nach denselben Kategorien wie oben (z. B. `technologie-entwicklung/code-reviewer.md`, `rollenspiel-kreativ-simulationen/dungeon-master.md`).
+- Aufruf per `/<name>` (z. B. `/code-reviewer`, `/dungeon-master`) — die Kategorie erscheint in `/help` als Namensraum-Label, ändert aber nicht den Befehlsnamen selbst.
+- Alle Commands sind mit `disable-model-invocation: true` markiert: Sie lösen **nur** aus, wenn du sie explizit eingibst, nie automatisch durch Claude selbst — das entspricht der bisherigen "als System-Prompt aktivieren"-Nutzung.
+- Neu hinzugekommene Commands werden erst nach einem Neustart/erneuten Öffnen von Claude Code in diesem Repo erkannt.
+
+**Claude.ai & Cowork — 20 kuratierte Prompts als Skills**
+Skills lösen (anders als Slash-Commands) automatisch aus, wenn Claude die Beschreibung passend findet. Deshalb wurden nur eindeutig aufgabenbezogene, risikoarme Prompts als Skills verpackt (unter `skills/<name>/`, per "Save skill"-Button installierbar); Rollenspiel- und Unterhaltungs-Prompts bleiben bewusst außen vor, um ungewolltes Auto-Triggering zu vermeiden:
+
+| Skill | Ursprünglicher Prompt |
+|---|---|
+| `code-reviewer` | Code_Reviewer.prompt |
+| `api-designer` | API_Designer.prompt |
+| `database-architect` | Database_Architect.prompt |
+| `devops-engineer` | DevOps_Engineer.prompt |
+| `cyber-security-specialist` | Cyber_Security_Specialist.prompt |
+| `regex-generator` | Regex_Generator.prompt |
+| `commit-message-generator` | Commit_Message_Generator.prompt |
+| `tech-writer` | Tech_Writer.prompt |
+| `sap-berater` | SAP_Berater.prompt |
+| `sap-qm-berater` | SAP_QM_Berater.prompt |
+| `sap-qm-developer` | SAP_QM_Developer.prompt |
+| `product-manager-prd` | Product_Manager_PRD.prompt |
+| `risk-manager` | Risk_Manager.prompt |
+| `change-manager` | Change_Manager.prompt |
+| `meeting-notes-formatter` | Meeting_Notes_Formatter.prompt |
+| `email-professional` | Email_Professional.prompt |
+| `financial-analyst` | Financial_Analyst.prompt |
+| `prompt-enhancer` | Prompt_Enhancer.prompt |
+| `plagiarism-checker` | Plagiarism_Checker.prompt |
+| `public-speaking-coach` | Public_Speaking_Coach.prompt |
+
+Die übrigen ~173 Prompts (v. a. Rollenspiel, Unterhaltung, Simulationen) bleiben für Claude.ai/Cowork wie bisher nutzbar: Datei öffnen, Inhalt kopieren, als ersten Chat-Prompt einfügen. In Claude Code stehen auch sie wie oben beschrieben als Slash-Command zur Verfügung.
 
 ### Skills in Claude Code, Cowork & Claude.ai nutzen
 
