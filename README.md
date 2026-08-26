@@ -437,8 +437,9 @@ Skills lösen (anders als Slash-Commands) automatisch aus, wenn Claude die Besch
 | `prompt-enhancer` | Prompt_Enhancer.prompt |
 | `plagiarism-checker` | Plagiarism_Checker.prompt |
 | `public-speaking-coach` | Public_Speaking_Coach.prompt |
+| `brainstorming` | Brainstorming.prompt |
 
-Die übrigen ~173 Prompts (v. a. Rollenspiel, Unterhaltung, Simulationen) bleiben für Claude.ai/Cowork wie bisher nutzbar: Datei öffnen, Inhalt kopieren, als ersten Chat-Prompt einfügen. In Claude Code stehen auch sie wie oben beschrieben als Slash-Command zur Verfügung.
+Die übrigen ~172 Prompts (v. a. Rollenspiel, Unterhaltung, Simulationen) bleiben für Claude.ai/Cowork wie bisher nutzbar: Datei öffnen, Inhalt kopieren, als ersten Chat-Prompt einfügen. In Claude Code stehen auch sie wie oben beschrieben als Slash-Command zur Verfügung.
 
 ### Skills in Claude Code, Cowork & Claude.ai nutzen
 
@@ -447,6 +448,9 @@ Die Skills in `skills/*/SKILL.md` sind zusätzlich zum OpenCode/Copilot-Format k
 **Claude Code** (in diesem Repo)
 - Die Skills sind zusätzlich unter `.claude/skills/<name>/` verlinkt (Symlinks auf `skills/<name>/`) — Claude Code erkennt und lädt sie damit automatisch, sobald dieses Repo geöffnet ist. Keine weitere Einrichtung nötig.
 - Für andere Projekte: Ordner nach `~/.claude/skills/<name>/` kopieren (personenbezogen, projektübergreifend) oder gezielt einzelne Skills nach `.claude/skills/` im jeweiligen Projekt.
+
+**OpenCode & GitHub Copilot (VS Code)**
+- Beide lesen laut ihrer jeweiligen offiziellen Dokumentation ebenfalls aus `.claude/skills/*/SKILL.md` ([OpenCode-Doku](https://opencode.ai/docs/skills/), [VS-Code-Doku](https://code.visualstudio.com/docs/agent-customization/agent-skills)) — die hier verlinkten Skills funktionieren also ohne weitere Anpassung auch dort. Für GitHub Copilot ist die Funktion (Stand VS Code 1.108) als *experimentell* markiert und ggf. muss sie erst aktiviert werden.
 
 **Claude Cowork & Claude.ai (Chat)**
 - Jede Skill lässt sich einzeln als `.skill`-Datei (ein ZIP des Skill-Ordners) verpacken und unter *Einstellungen → Capabilities/Customize → Skills → Skill hochladen* installieren.
