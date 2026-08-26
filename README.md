@@ -87,7 +87,7 @@ Agenten sind vollständig konfigurierte KI-Profile mit definierten Rollen, Werkz
 
 ## Skills
 
-Skills sind modulare Wissens- und Verhaltensblöcke, die von Agenten (oder direkt) aufgerufen werden können. Sie liegen als `SKILL.md` in den jeweiligen Unterordnern.
+Skills sind modulare Wissens- und Verhaltensblöcke, die von Agenten (oder direkt) aufgerufen werden können. Sie liegen als `SKILL.md` in den jeweiligen Unterordnern. Das Frontmatter (`name`/`description`) folgt dem offenen [Agent-Skills-Format](https://github.com/anthropics/skills), das auch von Claude Code, Cowork und Claude.ai gelesen wird — siehe [Skills in Claude Code, Cowork & Claude.ai nutzen](#skills-in-claude-code-cowork--claudeai-nutzen).
 
 ### 🔷 SAP & Fiori Skills
 
@@ -399,6 +399,21 @@ Die `.prompt`-Dateien im Ordner `Prompts/` bieten sofort einsatzfähige Rollen- 
 
 ### Prompts direkt nutzen
 Öffne eine `.prompt`-Datei in VS Code und aktiviere sie als System-Prompt für eine Chat-Session, oder kopiere den Inhalt als Basis-Prompt in deinen bevorzugten KI-Chatbot.
+
+### Skills in Claude Code, Cowork & Claude.ai nutzen
+
+Die Skills in `skills/*/SKILL.md` sind zusätzlich zum OpenCode/Copilot-Format kompatibel zum offenen [Agent-Skills-Format](https://github.com/anthropics/skills) von Anthropic (`name` + `description` im YAML-Frontmatter, Anleitung im Markdown-Body). Dadurch lassen sie sich ohne Anpassung auch in Claude verwenden:
+
+**Claude Code** (in diesem Repo)
+- Die Skills sind zusätzlich unter `.claude/skills/<name>/` verlinkt (Symlinks auf `skills/<name>/`) — Claude Code erkennt und lädt sie damit automatisch, sobald dieses Repo geöffnet ist. Keine weitere Einrichtung nötig.
+- Für andere Projekte: Ordner nach `~/.claude/skills/<name>/` kopieren (personenbezogen, projektübergreifend) oder gezielt einzelne Skills nach `.claude/skills/` im jeweiligen Projekt.
+
+**Claude Cowork & Claude.ai (Chat)**
+- Jede Skill lässt sich einzeln als `.skill`-Datei (ein ZIP des Skill-Ordners) verpacken und unter *Einstellungen → Capabilities/Customize → Skills → Skill hochladen* installieren.
+- Zum Verpacken eignet sich das Skript aus [anthropics/skills](https://github.com/anthropics/skills) (`skill-creator`-Skill, `scripts/package_skill.py <pfad-zum-skill-ordner>`); alternativ genügt ein einfaches Zip des jeweiligen Unterordners (`skills/<name>/`) — wichtig ist, dass die `SKILL.md` direkt auf oberster Ebene im Zip liegt.
+- Jede Skill wird separat verpackt/hochgeladen — ein Zip darf laut Format nur eine `SKILL.md` enthalten.
+
+**Hinweis zu `fiorielementscheatsheet`**: Diese Skill wurde nach dem Progressive-Disclosure-Prinzip aufgeteilt — `SKILL.md` enthält nur noch die Übersicht und eine Routing-Tabelle, die Detail-Inhalte liegen thematisch sortiert in `references/*.md` und werden nur bei Bedarf nachgeladen.
 
 ---
 

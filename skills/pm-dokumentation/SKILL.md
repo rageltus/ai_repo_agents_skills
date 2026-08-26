@@ -1,7 +1,6 @@
 ---
 name: pm-dokumentation
-description: Erzeugt Produkt- und Feature-Dokumentation, Release Notes und PI-Plan-Notizen basierend auf Requirement-Analyse und Story-Outputs.
-compatibility: opencode
+description: Erzeugt Produkt- und Feature-Dokumentation, Release Notes und PI-Plan-Notizen basierend auf Requirement-Analyse und Story-Outputs. Nutze diese Skill, wenn aus einer Anforderung oder fertigen User Stories eine Feature-Übersicht, Release Notes oder PI-Planning-Notizen für Stakeholder erstellt werden sollen.
 ---
 
 Name: PM-Dokumentation

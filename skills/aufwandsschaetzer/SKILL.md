@@ -1,7 +1,6 @@
 ---
 name: aufwandsschaetzer
-description: Schätzt Story Points (SP) für User Stories nach SAFe-Grundsätzen; liefert Begründung, Risiko-Einschätzung und Empfehlungen.
-compatibility: opencode
+description: Schätzt Story Points (SP) für User Stories nach SAFe-Grundsätzen (Fibonacci-Skala); liefert Begründung, Confidence-Level, Risiko-Einschätzung und Empfehlungen (z. B. Spike, Split). Nutze diese Skill, wenn eine User Story, ein Task oder ein Feature im Aufwand geschätzt werden soll.
 ---
 
 Name: Aufwandsschätzer

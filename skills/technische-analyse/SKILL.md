@@ -1,7 +1,6 @@
 ---
 name: technische-analyse
-description: Führt eine vertiefte technische Analyse eines Requirements durch; liefert Architektur-Überlegungen, Integrationspunkte, Datenmodell-Auswirkungen, Aufwandsanteile und Risiken.
-compatibility: opencode
+description: Führt eine vertiefte technische Analyse eines Requirements durch; liefert Architektur-Überlegungen, Integrationspunkte, Datenmodell-Auswirkungen, Aufwandsanteile und Risiken. Nutze diese Skill, wenn zu einer Anforderung technische Implikationen, Architektur-Alternativen oder ein Task-Breakdown vor der Schätzung/Story-Erstellung gebraucht werden.
 ---
 
 Name: Technische-Analyse
