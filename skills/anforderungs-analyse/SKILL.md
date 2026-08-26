@@ -1,7 +1,6 @@
 ---
 name: anforderungs-analyse
-description: Analysiert ein neues Requirement; extrahiert Nutzerbedürfnisse, Entitäten, nicht-funktionale Anforderungen und generiert initiale Backlog-Items und Fragen für Brainstorming.
-compatibility: opencode
+description: Analysiert ein neues Requirement; extrahiert Nutzerbedürfnisse, Entitäten, nicht-funktionale Anforderungen und generiert initiale Backlog-Items und Fragen für Brainstorming. Nutze diese Skill, wenn ein Nutzer ein neues Feature/Requirement beschreibt und daraus strukturiert Personas, Entitäten, Akzeptanzkriterien oder erste Backlog-Items abgeleitet werden sollen.
 ---
 
 Name: Anforderungs-Analyse
