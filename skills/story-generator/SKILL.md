@@ -1,7 +1,6 @@
 ---
 name: story-generator
-description: Erzeugt SAFe-konforme User Stories auf Basis einer Requirement-Analyse oder Rohbeschreibung; liefert Varianten, Akzeptanzkriterien und DoD.
-compatibility: opencode
+description: Erzeugt SAFe-konforme User Stories auf Basis einer Requirement-Analyse oder Rohbeschreibung; liefert mehrere Varianten (konservativ/innovativ/risikoarm), Akzeptanzkriterien und Definition of Done. Nutze diese Skill, wenn aus einer Anforderung konkrete User Stories formuliert werden sollen.
 ---
 
 Name: Story-Generator
